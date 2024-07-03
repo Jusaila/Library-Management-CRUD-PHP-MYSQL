@@ -20,7 +20,7 @@ $result = $conn->query($sql);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <style>
         body {
-            background-image: url('images/library-filled-with-books.jpg'); /* Replace with your image file path */
+            background-image: url('images/library-filled-with-books.jpg'); 
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
