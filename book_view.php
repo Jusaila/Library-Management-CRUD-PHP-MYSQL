@@ -35,16 +35,19 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     <title>View Book</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        body {
-            background-color: burlywood;
+       body {
+            background-image: url('images/library-filled-with-books.jpg'); /* Replace with your image file path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
         .container {
             max-width: 800px;
             margin: 100px auto;
-            padding: 40px;
+            padding: 20px;
             background-color: #fff;
             border-radius: 8px;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
         .form-group {
             margin-bottom: 20px;
