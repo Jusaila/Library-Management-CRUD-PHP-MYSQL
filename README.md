@@ -1,5 +1,7 @@
 
 SCREEN SHOTS OF CRUD APPLICATION:
+--------------------------------
+
 
 BOOK_LIST PAGE:
 ---------------
